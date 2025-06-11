@@ -10,7 +10,7 @@
 - 📂 Supports watching specific directories
 - 🧠 Built with `fsnotify`
 - ⚡ Fast and minimal
-- 🧩 Easily extendable (e.g., run scripts on file changes)
+- 🧹 Easily extendable (e.g., run scripts on file changes)
 
 ---
 
@@ -20,19 +20,27 @@
 git clone https://github.com/techrook/stalker.git
 cd stalker
 go build -o stalker
+```
 
 ---
+
 ## 🛠️ Usage
 
 ```bash
 ./stalker --path /your/directory/to/watch
+```
 
+Or simply modify the default path in `main.go` for quick testing.
 
+---
 
-🧱 Built With
-Go
+## 🧱 Built With
 
-fsnotify
+- [Go](https://golang.org/)
+- [fsnotify](https://github.com/fsnotify/fsnotify)
 
-👨‍💻 Author
-Made with ❤️ by Itohowo monday
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Itohowo Monday**
