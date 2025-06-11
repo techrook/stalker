@@ -21,8 +21,8 @@ git clone https://github.com/techrook/stalker.git
 cd stalker
 go build -o stalker
 
-
- 🛠️ Usage
+---
+## 🛠️ Usage
 
 ```bash
 ./stalker --path /your/directory/to/watch
